@@ -15,7 +15,7 @@ from pathlib import Path
 import requests
 
 API = "https://agents-course-unit4-scoring.hf.space"
-USERNAME = "Downey112"
+USERNAME = "downey112"  # exact Hugging Face username (lowercase); the certificate checker matches it exactly
 AGENT_CODE = "https://github.com/Downey112/hf-agents-course-gaia/tree/main"
 ANSWERS = Path("answers.json")
 FILES = Path("files")
